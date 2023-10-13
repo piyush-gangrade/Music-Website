@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Ubuntu&display=swap');
+body{
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    margin: 10px 25px;
+    align-items: center;
+    height: 7vh;
+}
+
+#logo{
+    margin-left: 10px;
+    font-family:'Tilt Neon', cursive;
+}
+
+/* nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0px 80px;
+    width: 130px;
+    justify-content: space-between;
+} */
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 78vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    width: 40%;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+.box h1{
+    margin: 10px 0px;
+}
+#songList{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 38, 38);
+}
+.items{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px 5px;
+    border-radius: 18px;
+}
+.img{
+    width: 40px;
+    border: 1px solid wheat;
+    border-radius: 50%;
+}
+.items span{
+    margin-right: 12px;
+}
+#time-stamp{
+    margin-right: 10px;
+}
+
+#song-bar{
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    bottom: 0px;
+    background-color: rgb(53, 51, 54);
+}
+#song-range{
+    width:100%;
+    cursor: pointer;
+}
+#song-bar-items{
+    display: flex;
+    margin: 7px 0px;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+#song-bar-items div{
+    display: flex;
+    align-items: center;
+}
+#song-bar-items div span{
+    margin-left: 12px;
+}
+.play-buttons{
+    width:100px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    cursor: pointer;
+}

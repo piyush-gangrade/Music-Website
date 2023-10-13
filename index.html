@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/7b05bd2a59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div>
+            <h1 id="logo">Melody</h1>
+        </div>
+        <!-- <ul>
+            <li>Home</li>
+            <li>About</li>
+        </ul> -->
+    </nav>
+    <div class="container">
+        <div class="box">
+            <h1>My Favorite Songs</h1>
+            <div class="box" id="songList">
+                <div class="items" >
+                    <img class="img" src="" alt="1"/>
+                    <span class="songName">Night Changes</span>
+                    <span><span class="timeStamp">3:00</span><i id="0" class="fa-solid fa-play btn songItemPlay"></i></span>
+                </div>
+                <div class="items" >
+                    <img class="img" src="" alt="2"/>
+                    <span class="songName">Carol of the bells</span>
+                    <span><span class="timeStamp">3:00</span><i id="1" class="fa-solid fa-play btn songItemPlay"></i></span>
+                </div>
+                <div class="items" >
+                    <img class="img" src="." alt="3"/>
+                    <span class="songName">Ijazat</span>
+                    <span><span class="timeStamp">3:00</span><i id="2" class="fa-solid fa-play btn songItemPlay"></i></span>
+                </div>
+                <div class="items" >
+                    <img class="img" src="" alt="4"/>
+                    <span class="songName">Cure for Me</span>
+                    <span><span class="timeStamp">3:00</span><i id="3" class="fa-solid fa-play btn songItemPlay"></i></span>
+                </div>
+                <div class="items" >
+                    <img class="img" src="" alt="5"/>
+                    <span class="songName">Flowers</span>
+                    <span><span class="timeStamp">3:00</span><i id="4" class="fa-solid fa-play btn songItemPlay"></i></span>
+                </div>
+                <div class="items" >
+                    <img class="img" src="" alt="6"/>
+                    <span class="songName">Kabhi Kabhi Aditi</span>
+                    <span><span class="timeStamp">3:00</span><i id="5" class="fa-solid fa-play btn songItemPlay"></i></span>
+                </div>
+                <div class="items" >
+                    <img class="img" src="" alt="7"/>
+                    <span class="songName">Suzume</span>
+                    <span><span class="timeStamp">3:00</span><i id="6" class="fa-solid fa-play btn songItemPlay"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="song-bar">
+        <input type="range" name="range" id="song-range" min="0" max="100" value="0">
+        <div id="song-bar-items">
+            <div>
+                <img class="img" src="Images/night-changes.jpeg" id="barSongImg"/>
+                <span id="barSongName">Night Changes</span>
+            </div>
+            <div class="play-buttons">
+                <i class="fa-solid fa-backward btn" id="backward"></i>
+                <i class="fa-solid fa-play btn" id="play"></i>
+               <i class="fa-solid fa-forward btn" id="forward"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
